@@ -9,16 +9,15 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="header">
+          <div class="header-left">
+            <img src="assets/logo.png" alt="Logo" class="logo" />
             <div>
-                <h1 class="title" style="margin-bottom: 0;">Smart Campus</h1>
-                <p class="text-muted text-sm">Find available rooms and labs instantly</p>
+              <h1>Smart Campus</h1>
+                  <p class="subtitle">Find available rooms and labs instantly</p>
             </div>
-            <button class="theme-toggle" id="theme-btn" aria-label="Toggle Dark Mode">
-                <svg viewBox="0 0 24 24"><path d="M12 21.05a9 9 0 01-6.36-2.64C1.76 14.54 1.76 8.2 5.64 4.32a9 9 0 014.13-2.19c.47-.13.91.24.79.71a8.03 8.03 0 00.91 5.92 8.03 8.03 0 005.92.91c.47-.12.84.32.71.79a9 9 0 01-2.19 4.13A9 9 0 0112 21.05z"/></svg>
-            </button>
+         </div>
         </header>
-
         <section class="controls-card">
             <input type="text" id="search-input" class="search-input" placeholder="Search for a room... e.g. Lab 301">
             <div class="filter-group" id="filter-group">
